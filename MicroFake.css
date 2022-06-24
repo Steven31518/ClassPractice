@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+* body {
+  margin: 0;
+  padding: 0;
+}
+* header section nav {
+  width: 1920px;
+  height: 54px;
+  border: 1px dashed black;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 5%;
+}
+* header section nav .logo {
+  width: 6.5%;
+  margin-left: 3%;
+  height: 100%;
+  border: 1px dashed green;
+  background-image: url(./RE1Mu3b.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 43%;
+}
+* header section nav .linkbar {
+  width: 62%;
+  height: 100%;
+  border: 1px dashed red;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+* header section nav .linkbar ul {
+  width: 70%;
+  border: 1px dashed chartreuse;
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  font-size: smaller;
+  padding-left: 0;
+}
+* header section nav .linkbar ul li {
+  margin: 0 2%;
+}
+* header section nav .navR {
+  width: 26%;
+  height: 100%;
+  border: 1px dashed blue;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+* header section nav .navR .action3 {
+  display: flex;
+  border: 1px dashed firebrick;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-left: 40px;
+}
+* header section nav .navR .action1,
+* header section nav .navR .action2,
+* header section nav .navR .action4 {
+  display: flex;
+  border: 1px dashed firebrick;
+  font-size: 0.8rem;
+  text-align: center;
+}
+* header section nav .navR .action1 #icon1,
+* header section nav .navR .action1 #icon2,
+* header section nav .navR .action1 #icon3,
+* header section nav .navR .action2 #icon1,
+* header section nav .navR .action2 #icon2,
+* header section nav .navR .action2 #icon3,
+* header section nav .navR .action4 #icon1,
+* header section nav .navR .action4 #icon2,
+* header section nav .navR .action4 #icon3 {
+  width: 20px;
+  height: 100%;
+  border: 1px dashed goldenrod;
+}
+* header section nav .navR .action1 .topHeader,
+* header section nav .navR .action2 .topHeader,
+* header section nav .navR .action4 .topHeader {
+  width: 30px;
+  height: 100%;
+}/*# sourceMappingURL=MicroFake.css.map */
